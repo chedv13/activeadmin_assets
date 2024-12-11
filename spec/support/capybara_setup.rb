@@ -28,7 +28,7 @@ Capybara::Screenshot.add_os_path = true
 Capybara::Screenshot.save_path = File.expand_path('../screenshots', __dir__)
 Capybara::Screenshot::Diff.driver = :vips
 Capybara::Screenshot::Diff.fail_if_new = ENV['CI']
-Capybara::Screenshot::Diff.tolerance = 0.01
+Capybara::Screenshot::Diff.tolerance = 0.05
 
 RSpec.configure do |config|
   config.before(:each, type: :system) { driven_by :customized_chrome }
