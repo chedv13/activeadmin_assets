@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Support ActiveAdmin 4.0.0.beta16
+
 ## [1.0.2] - 2024-09-17
 
 - Don't raise if inexistent asset is accessed, just log a warning
