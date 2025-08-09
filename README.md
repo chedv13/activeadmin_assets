@@ -16,7 +16,6 @@ Like the asset gems of old, it includes static copies of all required assets and
 
 - This will prevent you from customizing ActiveAdmin's tailwind config, making theming more hacky.
 - This will prevent you from using tailwind classes that are not used by ActiveAdmin itself.
-- This might break with ActiveAdmin updates, though I don't consider it likely so its not version-locked yet.
 
 ## Installation
 
